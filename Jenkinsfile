@@ -6,7 +6,7 @@ node() {
     }
 
     stage ('Create Virtualenv') {
-        sh 'ls -la'
+        sh 'ls ../ -la'
     }
 
 }

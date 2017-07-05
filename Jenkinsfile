@@ -9,7 +9,7 @@ node('spring-cloud-study_Node') {
 
 
 
-    git 'https://github.com/yunqiangwu/spring-cloud-study'
+    sh 'echo Checkout'
 
 
 

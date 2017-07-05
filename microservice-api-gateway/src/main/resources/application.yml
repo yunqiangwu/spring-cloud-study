@@ -15,3 +15,6 @@ zuul:
     user:
       path: /user/**                                                 # 想要映射到的路径
       service-id: microservice-provider-user     # Eureka中的serviceId
+    move:
+      path: /move/**
+      service-id: microservice-consumer-movie-ribbon

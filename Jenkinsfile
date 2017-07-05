@@ -9,4 +9,8 @@ node() {
         sh 'ls ../ -la'
     }
 
+    stage ('Build') {
+        sh 'mvn clean package'
+    }
+
 }

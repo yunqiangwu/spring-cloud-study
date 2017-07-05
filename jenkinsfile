@@ -1,0 +1,37 @@
+node('spring-cloud-study_Node') {
+
+
+
+
+
+
+  stage ('Checkout') {
+
+
+
+    git 'https://github.com/yunqiangwu/spring-cloud-study'
+
+
+
+  }
+
+
+
+
+
+
+  stage ('Create Virtualenv') {
+
+
+
+    sh 'ls -la'
+
+
+
+  }
+
+
+
+
+
+}
